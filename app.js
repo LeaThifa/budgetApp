@@ -68,9 +68,12 @@ function countTotal(event){
 
     // Insert the value of "sum" in the span element (.profitOrLoss) in HTML
 
-    var profitOrLoss = document.querySelector(".profitOrLoss");
-    profitOrLoss.innerText = sum + " kr";
-
+    if(sum<0){
+        
+        var profitOrLoss = document.querySelector(".profitOrLoss");
+        profitOrLoss.innerText = sum + " kr";
+    }
+    
 
 }
 
