@@ -1,0 +1,13 @@
+body {
+
+    border: solid 1rem slategray;
+}
+
+body h1{
+    text-align: center;
+}
+
+.container{
+    margin: 2rem;
+}
+
